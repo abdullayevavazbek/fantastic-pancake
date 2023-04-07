@@ -1,0 +1,185 @@
+@media only screen and (max-width:1250px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .cards .card {
+        width: 45%;
+    }
+
+    .cards2 {
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:1200px) {
+    .forArrow button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1080px) {
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width:950px) {
+
+
+    .list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list .pageT {
+        width: 250px;
+    }
+
+    nav {
+
+        flex-direction: column;
+        height: 150px;
+    }
+
+    nav .links {
+        width: 100%;
+    }
+
+    nav .links ul {
+        justify-content: space-between;
+    }
+
+    nav .signs {
+        width: 30%;
+    }
+
+    .page1 .position {
+        width: 500px;
+    }
+
+    
+}
+
+@media only screen and (max-width:600px) {
+    
+    .position {
+        display: none !important;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .iconS {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .backgroundImg {
+        width: 100% !important;
+        border-radius: 0 0 0 0 !important;
+    }
+
+    .page1 .info {
+        width: 70%;
+        padding-left: 10px !important;
+    }
+
+    .info h1 {
+        width: 100% !important;
+        border: 1px solid blue;
+        font-size: 32px;
+    }
+
+    .page3 .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px !important;
+    }
+    .page3 .cards .card{
+        height: 400px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .page3 .cards .card .titleB{
+        width: 100% !important;
+        height:  auto;
+    }
+}
+
+
+@media only screen and (max-width:540px) {
+    nav .logo{
+        width: auto;
+    }
+    nav {
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .links ul {
+        flex-wrap: wrap;
+    }
+
+    nav .links ul li {
+        height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .step1 h2{
+        font-size: 32px !important;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .page4 .cards2 .card2{
+        width: 300px;
+        box-sizing: border-box;
+    }
+    .page4 .cards2 .card2 .rasm .rasm-image{
+        width: 280px;
+    }
+    .malumot .titleI{
+        width: auto;
+        height: auto;
+    }
+
+    .page6 .cards4 .card4{
+        width: 320px !important;
+        height: auto;
+    }
+
+    .page6 .cards4 .card4 img{
+        width: 300px;
+    }
+
+    .page6 .cards4 .card4 .step1 .five{
+        width: 16px;
+        height: 16px;
+    }
+
+    .page6 .cards4 .card4 .title1{
+        width: auto;
+        height: auto;
+    }
+
+    
+
+}
